@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:hint="Enter the first number"
+        android:contentDescription="First number input field"
+        android:inputType="numberDecimal"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#808080" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:hint="Enter the second number (optional)"
+        android:contentDescription="Second number input field"
+        android:inputType="numberDecimal"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#808080" />
+
+    <Spinner
+        android:id="@+id/operation_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:padding="8dp"
+        android:contentDescription="Operation selector"
+        android:background="#673AB7" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginTop="8dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result will be displayed here"
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:textColor="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:background="#000000"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/history_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator App</string>
+    <string-array name="operations">
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item>Multiplication</item>
+        <item>Division</item>
+        <item>Square Root</item>
+        <item>Power</item>
+        <item>Percentage</item>
+        <item>Sine</item>
+        <item>Cosine</item>
+        <item>Tangent</item>
+    </string-array>
+</resources>
